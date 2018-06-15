@@ -1,0 +1,188 @@
+/*  Evan Buss
+	Based off the Dracula editor theme's color palette
+	https://draculatheme.com/
+*/
+
+#contact {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #f8f8f2;
+    text-align: center;
+}
+
+#item {
+    border: none;
+    background-color: #3c4556;
+    padding: 0px 0px 5px 0px;
+    text-align: left;
+}
+
+#itemHeader {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    color: #8be9fd;
+}
+
+#infoTable {
+    border: 3px solid #bd93f9;
+    margin-bottom: 2.5%;
+}
+
+#disclaimer {
+    font-size: 14px;
+    font-style: italic;
+    color: #6272a4;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
+#priceInfo {
+    text-align: center;
+    border: none;
+    background-color: #3c4556;
+    padding: 0px 0px 5px 0px;
+}
+
+#product_categories {
+    text-align: center;
+}
+
+#name {
+    color: #ff5555;
+}
+
+#pass_guidelines {
+    font-size: 14px;
+    color: #ff5555;
+}
+
+#slogan {
+    margin: 5px;
+    color: #8be9fd;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.account_drop {
+    visibility: hidden;
+}
+
+.information {
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    color: #f8f8f2;
+}
+
+.menu_item {
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+.optional {
+    color: #8be9fd;
+    font-style: italic;
+}
+
+html {
+    font-family: 'Fira Sans', Sans-serif;
+    background-color: #282a36;
+}
+
+table,
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 10px;
+    border: 5px solid #bd93f9;
+    background-color: #3C4556;
+}
+
+form {
+    text-align: center;
+    width: 76%;
+    color: #f8f8f2;
+    margin-bottom: 20px;
+}
+
+td {
+    background-color: #44475a;
+    border: 5px solid #ffb86c;
+    margin: 10px 10px 10px 10px;
+}
+
+strong {
+    color: #ff5555;
+}
+
+h1,
+h2 {
+    color: #50fa7b;
+    text-align: center;
+    /*margin: 40px 0px 30px 0px;*/
+    margin: 10px 0px 10px 0px;
+    /*font-style: italic;*/
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+h1 {
+    margin: 20px 0px 20px 0px;
+}
+
+h2 {
+    color: #8be9fd;
+    font-size: 24px;
+}
+
+h3 {
+    color: #f8f8f2;
+    font-size: 20px;
+}
+
+nav {
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav:hover ul {
+    display: block;
+}
+
+nav:hover {
+    text-decoration: none;
+}
+
+nav ul li {
+    border-top: 2px solid #bd93f9;
+}
+
+nav ul li:hover {
+    background-color: #6272a4;
+}
+
+a:link {
+    color: #f8f8f2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f8f8f2;
+}
+
+a:hover {
+    color: #50fa7b;
+    text-decoration: underline;
+}

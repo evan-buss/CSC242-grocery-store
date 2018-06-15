@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel=Stylesheet TYPE="text/css" HREF="style.css">
+<link rel="icon" href="logo.png">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        color: #f8f8f2;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, 20%);
+        right: auto;
+        background-color: #44475a;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: inline;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kutztown Grocery Store</title>
+</head>
+
+<body>
+    <h1>Kutztown Grocery Store</h1>
+    <table>
+        <!-- Slogan -->
+        <thead>
+            <tr>
+                <th colspan="5">
+                    <p id="slogan">Purveyor of Fair Priced Goods</p>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Table of Contents -->
+                <td class="menu_item">
+                    <a id="home" href="store.php">Home</a>
+                </td>
+                <td class="menu_item">
+                    <a id="browse" href="browse.php">Browse</a>
+                </td>
+                <td class="menu_item">
+                    <div class="dropdown">
+                        <span>Cart</span>
+                        <div class="dropdown-content">
+                            <a href="cart.php">Show Cart</a>
+                            <br>
+                            <a href="checkout.php">Checkout</a>
+                            <br>
+                            <a href="orders.php">My Orders</a>
+                            <br>
+                        </div>
+                    </div>
+                </td>
+                <td class="menu_item">
+                    <div class="dropdown">
+                        <span>Account</span>
+                        <div class="dropdown-content">
+                            <a href="login.php">Login</a>
+                            <br>
+                            <a href="logout.php">Logout</a>
+                            <br>
+                            <a href="create_account.php">Create</a>
+                            <br>
+                        </div>
+                    </div>
+
+
+                </td>
+                <td class="menu_item">
+                    <a href="contact.php">Contact</a>
+                </td>
+            </tr>
